@@ -1,0 +1,28 @@
+{
+    "name": "php-cloud/PhpCloud",
+    "description": "a micro service development kits for php",
+    "type": "project",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "adocking",
+            "email": "yibo520@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~5.5.0",
+        "php-di/php-di": "~5.4.3",
+        "nikic/fast-route": "~1.2.0",
+        "workerman/workerman": "~3.3.0",
+        "symfony/console": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpCloud\\Framework\\": ""
+        }
+    },
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    }
+}
